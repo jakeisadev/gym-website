@@ -178,6 +178,15 @@ nav ul li a {
   color: white;
   margin-top: 2em;
 }
+.back-photo-text-container {
+  display: flex;
+}
+.back-photo-text-container p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
 .hours {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -186,6 +195,9 @@ nav ul li a {
   color: #39e75f;
   border-bottom: 3px solid #39e75f;
   margin-left: 2rem;
+}
+.three {
+  margin-left: .5rem;
 }
 /* MEDIA QUERIES */
 @media(max-width:1024px){
