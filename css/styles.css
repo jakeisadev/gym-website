@@ -88,6 +88,105 @@ nav ul li a {
 .main-btn:hover {
     cursor: pointer;
 }
+.main-logo {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: auto;
+}
+.second-header-photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)), url("../images/twoplatebench.jpg");
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 300px;
+  color: white;
+}
+.second-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.second-header-photo {
+  display: flex;
+  align-items: center;
+}
+.bench-press-photo-text-container {
+  display: flex;
+}
+.bench-press-photo-text-container p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.one,
+.two,
+.three {
+  font-size: 8rem;
+}
+.equipment {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #39e75f;
+  border-bottom: 3px solid #39e75f;
+}
+.third-header-photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)), url("../images/dumbbellrow.webp");
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 300px;
+  color: white;
+  margin-top: 2em;
+}
+.dumbbell-row-photo-text-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.people {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #39e75f;
+  border-bottom: 3px solid #39e75f;
+  margin-left: .5rem;
+}
+.dumbbell-row-photo-text-container p {
+  width: 50%;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.fourth-header-photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)), url("../images/strong-back.jpg");
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 300px;
+  color: white;
+  margin-top: 2em;
+}
+.hours {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #39e75f;
+  border-bottom: 3px solid #39e75f;
+  margin-left: 2rem;
+}
 /* MEDIA QUERIES */
 @media(max-width:1024px){
     .hamburger{
