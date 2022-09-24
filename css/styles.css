@@ -199,6 +199,16 @@ nav ul li a {
 .three {
   margin-left: .5rem;
 }
+.memberships-box {
+  background-color: #bbf7d0;
+  height: 500px;
+  margin-top: 2em;
+}
+#memberships h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1em;
+}
 /* MEDIA QUERIES */
 @media(max-width:1024px){
     .hamburger{
