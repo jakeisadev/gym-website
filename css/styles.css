@@ -220,7 +220,46 @@ nav ul li a {
   display: flex;
   align-items: center;
 }
+section#reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-name {
+  border-bottom: 5px solid #86efac;
+  border-radius: 8%;
+  padding-bottom: .5em;
+}
+.review-img {
+  display: block;
+  margin-bottom: 1em;
+  border-radius: 50%;
+  border: 2px solid #86efac;
+  width: 75px;
+  height: 75px;
+}
+.review-container {
+  margin-top: 2em;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  border: 2px solid #22c55e;
+  color: black;
+  border-radius: 3px;
+  background-color: #bbf7d0;
+}
+.review-text {
+  width: 85%;
+  border: 2px solid #86efac;
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: .8em;
+  border-radius: 3px;
 
+}
 /* MEDIA QUERIES */
 @media(max-width:1024px){
     .hamburger{
